@@ -5,7 +5,9 @@
 
 def bool_to_str(bval):
     """Boolean function"""
-    if bval is True:
-        return "Yes"
+    if bval == True:
+        bval = str('Yes')
     else:
-        return "No"
+        bval == False
+        bval = str('No')
+    return bval
